@@ -18,8 +18,8 @@
 :root {
   --bg-color: #fff;
   --text-color: #0f0c27;
-  --gallery-color: #800000;
-  --button-color: #800000;
+  --gallery-color: #2b2c2f;
+  --button-color: #2b2c2f;
 
   --big-font: 51.2px;
   --medium-font: 28px;
@@ -42,7 +42,7 @@ section {
 /* Styling untuk body saat aktif */
 body.active {
   --text-color: #fff;
-  --bg-color: #800000;
+  --bg-color: #2b2c2f;
   --gallery-color: #ffffff75;
   --button-color: #fff;
 }
@@ -71,7 +71,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #800000;
+  background: #2b2c2f;
   border-radius: 80px;
 }
 
@@ -110,7 +110,7 @@ header {
 /* Shadow Header */
 /* Shadow untuk header */
 header.shadow {
-  box-shadow: 0 0 5px #800000;
+  box-shadow: 0 0 5px #2b2c2f;
 }
 
 /* Logo */
@@ -129,20 +129,20 @@ header.shadow {
 }
 
 .navbar a {
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 20px;
   color: var(--text-color);
   font-weight: 500;
 }
 
 .navbar a:hover {
-  background: #800000;
+  background: #2b2c2f;
   color: #fff;
 }
 
 /* Red Mode */
 /* Styling untuk mode merah */
-#redmode {
+#graymode {
   font-size: 22px;
   margin-left: 5px;
   cursor: pointer;
@@ -195,7 +195,7 @@ header.shadow {
 
 .home-text .btn {
   display: inline-block;
-  background: #800000;
+  background: #2b2c2f;
   color: #fff;
   padding: 11px 11px;
   border-radius: 20px;
@@ -203,7 +203,7 @@ header.shadow {
 }
 
 .btn:hover {
-  background: #800000;
+  background: #2b2c2f;
 }
 
 /* Heading */
@@ -313,7 +313,7 @@ header.shadow {
   align-items: center;
   text-align: center;
   border-radius: 8px;
-  border-bottom: 2px solid #800000;
+  border-bottom: 2px solid #2b2c2f;
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 
@@ -326,17 +326,17 @@ header.shadow {
 .blog-box .bx {
   padding-top: 32px;
   font-size: 24px;
-  color: #800000;
+  color: #2b2c2f;
 }
 
 .blog-box .bi {
   padding-top: 19px;
   font-size: 24px;
-  color: #800000;
+  color: #2b2c2f;
 }
 
 .blog-box p {
-  color: #800000;
+  color: #2b2c2f;
   font-size: var(--p-font);
   font-weight: 500;
 }
@@ -459,7 +459,7 @@ h4 {
   }
 
   header.shadow {
-    box-shadow: 0 0 5px #800000;
+    box-shadow: 0 0 5px #2b2c2f;
   }
 
   .navbar {
@@ -473,7 +473,7 @@ h4 {
     font-weight: 500;
   }
 
-  #redmode {
+  #graymode {
     font-size: 24px;
     margin-left: 5px;
     cursor: pointer;
@@ -593,7 +593,7 @@ h4 {
     background: var(--bg-color);
   }
 
-  #redmode {
+  #graymode {
     position: absolute;
     top: 15px;
     right: 25px;
@@ -662,7 +662,7 @@ h4 {
     font-size: 4em;
   }
 
-  #redmode {
+  #graymode {
     right: 26px;
   }
 
