@@ -2,14 +2,14 @@ let header = document.querySelector('header');
 
 // Mode Red
 document.addEventListener('DOMContentLoaded', function () {
-  const redmode = document.getElementById('redmode');
+  const graymode = document.getElementById('graymode');
 
-  redmode.addEventListener('click', function () {
-    if (redmode.textContent === '🌙') {
-      redmode.textContent = '☀️';
+  graymode.addEventListener('click', function () {
+    if (graymode.textContent === '🌙') {
+      graymode.textContent = '☀️';
       document.body.classList.add('active');
     } else {
-      redmode.textContent = '🌙';
+      graymode.textContent = '🌙';
       document.body.classList.remove('active');
     }
   });
